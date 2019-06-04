@@ -33,11 +33,11 @@ public class Block {
 
 	private void reset() {
 		visible = true;
-		if (RandomNumberGenerator.GetRandInt(3) == 0) {
-			y = UPPER_Y;
-		}else {
+//		if (RandomNumberGenerator.GetRandInt(3) == 0) {
+//			y = UPPER_Y;
+//		}else {
 			y = LOWER_Y;
-		}
+//		}
 		x += 1000;
 	}
 

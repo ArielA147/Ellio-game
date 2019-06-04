@@ -2,5 +2,9 @@
     {
         "merged": "H:\\Android_Development\\EllioAndroid1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "H:\\Android_Development\\EllioAndroid1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]
