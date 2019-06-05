@@ -182,7 +182,8 @@ public class PlayState extends State{
 				Log.d("PlayState", "Pause Button Pressed!");
 				gamePaused = true;
 			}
-			
+
+			// todo : here is the place where i need to insert the blinking lisetining
 			if (scaledY - recentTouchY < -50) {
 				player.jump();
 			}else if (scaledY - recentTouchY > 50) {

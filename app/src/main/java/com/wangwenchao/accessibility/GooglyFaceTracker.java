@@ -15,8 +15,6 @@
  */
 package com.wangwenchao.accessibility;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.graphics.PointF;
 
 //import com.google.android.gms.samples.vision.face.googlyeyes.ui.camera.GraphicOverlay;
@@ -53,7 +51,7 @@ public class GooglyFaceTracker extends Tracker<Face> {
     //listners for the events
     private List<FaceListner> leftWtikleLisner;
     private List<FaceListner> rightWtikleLisner;
-    private List<FaceListner> blinkLisner;
+    private List<FaceListner> blinkListener;
 
     // Record the previously seen proportions of the landmark locations relative to the bounding box
     // of the face.  These proportions can be used to approximate where the landmarks are within the
@@ -74,8 +72,8 @@ public class GooglyFaceTracker extends Tracker<Face> {
         mOverlay = overlay;
         rightWtikleLisner = new ArrayList<>();
         leftWtikleLisner = new ArrayList<>();
-        blinkLisner = new ArrayList<>();
-        addBlinkLisner(new TestListner());
+        blinkListener = new ArrayList<>();
+        addBlinkListener(new TestListner());
     }
 
     /**
@@ -129,9 +127,9 @@ public class GooglyFaceTracker extends Tracker<Face> {
             mPreviousIsRightOpen = isRightOpen;
         }
 
-        //notify the listners
+        //notify the listeners
         if (isLeftTwikle && isRightTwikle){
-            notifyAll(blinkLisner);
+            notifyAll(blinkListener);
         }else if(isLeftTwikle){
             notifyAll(leftWtikleLisner);
         }else if(isRightTwikle){
@@ -224,8 +222,8 @@ public class GooglyFaceTracker extends Tracker<Face> {
         rightWtikleLisner.add(listner);
     }
 
-    public void addBlinkLisner(FaceListner listner){
-        blinkLisner.add(listner);
+    public void addBlinkListener(FaceListner listner){
+        blinkListener.add(listner);
     }
 
     //for tests

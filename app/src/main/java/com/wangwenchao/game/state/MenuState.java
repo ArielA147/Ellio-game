@@ -49,7 +49,6 @@ public class MenuState extends State{
 	public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
 		if (e.getAction() == MotionEvent.ACTION_DOWN) {
 			playButton.onTouchDown(scaledX, scaledY);
-			Log.d(TAG, "onTouch: i");
 			scoreButton.onTouchDown(scaledX, scaledY);
 			if (GameMainActivity.isMuted()) {
 				unmuteButton.onTouchDown(scaledX, scaledY);				
