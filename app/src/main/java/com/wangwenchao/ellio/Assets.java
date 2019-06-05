@@ -20,7 +20,7 @@ public class Assets {
 	private static SoundPool soundPool;
 	public static Bitmap welcome, block, cloud1, cloud2, duck, grass, jump, run1, run2, run3, run4,
 							scoreDown, score, startDown, start, pause, play, musicOn, musicOff,
-							arrow, gameOver;
+							arrow, gameOver, crocs, menuBg;
 	public static Animation runAnim;
 	
 	private static MediaPlayer mediaPlayer;
@@ -49,6 +49,8 @@ public class Assets {
 		musicOff = loadBitmap("musicOff.png", true);
 		gameOver = loadBitmap("Utgameover.png", true);
 		arrow = loadBitmap("arrow.png", true);
+		menuBg = loadBitmap("bg.png", true);
+		crocs = loadBitmap("croc.png", true);
 		
 		Frame f1 = new Frame(run1, .1f);
 		Frame f2 = new Frame(run2, .1f);

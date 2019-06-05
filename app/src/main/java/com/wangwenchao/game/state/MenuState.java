@@ -45,7 +45,9 @@ public class MenuState extends State {
 
     @Override
     public void render(Painter g) {
-        g.drawImage(Assets.welcome, 0, 0);
+        g.drawImage(Assets.menuBg, 0, 0);
+//        g.drawImage(Assets.crocs, 300, 200);
+        g.drawImage(Assets.crocs,200,60,400,102);
         if ((Calendar.getInstance().getTime().getSeconds()) - arrowDate.getSeconds() >= 1) {
             if (arrowY == arrowY1)
                 arrowY = arrowY2;
