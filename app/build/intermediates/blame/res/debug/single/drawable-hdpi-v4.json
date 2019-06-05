@@ -1,10 +1,10 @@
 [
     {
-        "merged": "H:\\Android_Development\\EllioAndroid1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "H:\\Android_Development\\EllioAndroid1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]
