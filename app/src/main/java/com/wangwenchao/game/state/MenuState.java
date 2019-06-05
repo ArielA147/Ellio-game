@@ -67,6 +67,15 @@ public class MenuState extends State{
     }
 
     @Override
+    public boolean onBlink(){
+        // if blink == true , do the "key pressed of the play game"
+        // if the user blinked in the menu - the state will be starting the game
+        setCurrentState(new PlayState());
+        return true;
+    }
+
+
+    @Override
     public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
         if (e.getAction() == MotionEvent.ACTION_DOWN) {
             playButton.onTouchDown(scaledX, scaledY);
@@ -79,6 +88,7 @@ public class MenuState extends State{
         }
 
         if (e.getAction() == MotionEvent.ACTION_UP) {
+            // if playButton was "pressed" by the user
             if (playButton.isPressed(scaledX, scaledY)) {
                 playButton.cancel();
                 Log.d("MenuState", "Play Button Pressed!");

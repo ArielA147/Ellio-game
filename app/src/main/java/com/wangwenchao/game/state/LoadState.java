@@ -28,4 +28,9 @@ public class LoadState extends State{
 		return false;
 	}
 
+	@Override
+	public boolean onBlink(){
+		return false;
+	}
+
 }

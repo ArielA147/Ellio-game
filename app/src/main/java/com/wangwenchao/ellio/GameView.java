@@ -8,10 +8,14 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 
+import com.wangwenchao.accessibility.GooglyFaceTracker;
+import com.wangwenchao.framework.util.BlinkHandler;
 import com.wangwenchao.framework.util.InputHandler;
 import com.wangwenchao.framework.util.Painter;
 import com.wangwenchao.game.state.LoadState;
 import com.wangwenchao.game.state.State;
+
+import java.util.List;
 
 public class GameView extends SurfaceView implements Runnable{
 
@@ -26,6 +30,9 @@ public class GameView extends SurfaceView implements Runnable{
 	private volatile State currentState;
 
 	private InputHandler inputHandler;
+	private BlinkHandler blinkHandler;
+
+	private GooglyFaceTracker blinkTracker;
 
 	public GameView(Context context, int gameWidth, int gameHeight) {
 		super(context);
@@ -34,8 +41,8 @@ public class GameView extends SurfaceView implements Runnable{
 		gameImageDst = new Rect();
 		gameCanvas = new Canvas(gameImage);
 		graphics = new Painter(gameCanvas);
-		
-		SurfaceHolder holder = getHolder();
+
+			SurfaceHolder holder = getHolder();
 		holder.addCallback(new Callback() {
 
 			@Override
@@ -64,6 +71,7 @@ public class GameView extends SurfaceView implements Runnable{
 		System.gc();
 		newState.init();
 		currentState = newState;
+		blinkHandler.setCurrentState(currentState);
 		inputHandler.setCurrentState(currentState);
 	}
 
@@ -71,7 +79,23 @@ public class GameView extends SurfaceView implements Runnable{
 		if (inputHandler == null) {
 			inputHandler = new InputHandler();
 		}
+
+		// creating an blinking handler - when user's blink
+		if (blinkHandler == null){
+			blinkHandler =new BlinkHandler(); // creating listener of blinking action
+		}
+
 		setOnTouchListener(inputHandler);
+		blinkTracker.addBlinkListener(blinkHandler); // adding the blinking event to the blinking tracing
+
+	}
+
+	public void setBlinkTracker(GooglyFaceTracker blinkTracker) {
+		this.blinkTracker = blinkTracker;
+	}
+
+	public GooglyFaceTracker getBlinkTracker() {
+		return blinkTracker;
 	}
 
 	@Override

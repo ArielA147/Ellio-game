@@ -35,6 +35,12 @@ public class ScoreState extends State{
 	}
 
 	@Override
+	public boolean onBlink(){
+		setCurrentState(new MenuState());
+		return true;
+	}
+
+	@Override
 	public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
 		// TODO Auto-generated method stub
 		if (e.getAction() == MotionEvent.ACTION_UP) {

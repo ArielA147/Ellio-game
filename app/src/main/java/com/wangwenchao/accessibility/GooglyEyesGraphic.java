@@ -126,7 +126,7 @@ class GooglyEyesGraphic extends GraphicOverlay.Graphic {
      */
     private void drawEye(Canvas canvas, PointF eyePosition, float eyeRadius,
                          PointF irisPosition, float irisRadius, boolean isOpen) {
-        if (TestListner.test) {
+        if (TestListener.test) {
             if (isOpen) {
                 canvas.drawCircle(eyePosition.x, eyePosition.y, eyeRadius, mEyeWhitesPaint);
                 canvas.drawCircle(irisPosition.x, irisPosition.y, irisRadius, mEyeIrisPaint);

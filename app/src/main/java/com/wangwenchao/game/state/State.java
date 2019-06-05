@@ -19,11 +19,15 @@ public abstract class State{
 	public abstract void render(Painter g);
 	
 	public abstract boolean onTouch(MotionEvent e, int scaledX, int scaledY);
-	
+
+	public abstract boolean onBlink();
+
 	public void onResume(){}
 	
 	public void onPause(){}
 	
 	public void onBackPressed(){}
+
+
 
 }

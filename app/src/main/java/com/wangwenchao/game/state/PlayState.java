@@ -159,6 +159,13 @@ public class PlayState extends State{
 	}
 
 	@Override
+	public boolean onBlink(){
+		player.jump();
+		return true;
+	}
+
+
+	@Override
 	public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
 		if (e.getAction() == MotionEvent.ACTION_DOWN) {
 			recentTouchY = scaledY;
@@ -183,7 +190,7 @@ public class PlayState extends State{
 				gamePaused = true;
 			}
 
-			// todo : here is the place where i need to insert the blinking lisetining
+
 			if (scaledY - recentTouchY < -50) {
 				player.jump();
 			}else if (scaledY - recentTouchY > 50) {

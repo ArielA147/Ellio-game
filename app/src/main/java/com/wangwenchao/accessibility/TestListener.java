@@ -1,6 +1,6 @@
 package com.wangwenchao.accessibility;
 
-public class TestListner implements FaceListner {
+public class TestListener implements FaceListener {
     public static boolean test;
     @Override
     public void onBlink(){

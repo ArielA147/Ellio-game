@@ -1,5 +1,5 @@
 package com.wangwenchao.accessibility;
 
-public interface FaceListner {
+public interface FaceListener {
     void onBlink();
 }

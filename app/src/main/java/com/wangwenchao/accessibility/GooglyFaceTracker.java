@@ -43,15 +43,15 @@ public class GooglyFaceTracker extends Tracker<Face> {
     //TODO: del it
     public static boolean test = false;
 
-    private static final float EYE_CLOSED_THRESHOLD = 0.4f;
+    private static final float EYE_CLOSED_THRESHOLD = 0.6f;
 
     private GraphicOverlay mOverlay;
     private GooglyEyesGraphic mEyesGraphic;
 
     //listners for the events
-    private List<FaceListner> leftWtikleLisner;
-    private List<FaceListner> rightWtikleLisner;
-    private List<FaceListner> blinkListener;
+    private List<FaceListener> leftWtikleLisner;
+    private List<FaceListener> rightWtikleLisner;
+    private List<FaceListener> blinkListener;
 
     // Record the previously seen proportions of the landmark locations relative to the bounding box
     // of the face.  These proportions can be used to approximate where the landmarks are within the
@@ -73,7 +73,7 @@ public class GooglyFaceTracker extends Tracker<Face> {
         rightWtikleLisner = new ArrayList<>();
         leftWtikleLisner = new ArrayList<>();
         blinkListener = new ArrayList<>();
-        addBlinkListener(new TestListner());
+        addBlinkListener(new TestListener());
     }
 
     /**
@@ -159,6 +159,20 @@ public class GooglyFaceTracker extends Tracker<Face> {
         mOverlay.remove(mEyesGraphic);
     }
 
+
+    //add the listners
+    public void addLeftTwikleLisner(FaceListener listner){
+        leftWtikleLisner.add(listner);
+    }
+    public void addRighTwikleLisner(FaceListener listner){
+        rightWtikleLisner.add(listner);
+    }
+
+    public void addBlinkListener(FaceListener listener){
+        blinkListener.add(listener);
+    }
+
+
     //==============================================================================================
     // Private
     //==============================================================================================
@@ -193,38 +207,14 @@ public class GooglyFaceTracker extends Tracker<Face> {
         return new PointF(x, y);
     }
 
-//    /**
-//     * give the score that an eye is open, and if the eye was open previou, check if the eye was twikl
-//     * @param OpenScore - the odds the eye is open
-//     * @param previousIsOpen - is the eye was close before
-//     * @return true if the eye was twikle
-//     */
-//    private boolean isEyeTwikl(float OpenScore,boolean previousIsOpen) {
-//        return OpenScore < 0.6 && !previousIsOpen;
-//    }
-
-
     //notify the lisners on the events
-    private void notifyAll(List<FaceListner> listners){
+    private void notifyAll(List<FaceListener> listners){
         happand();
-        for (FaceListner listner : listners){
+        for (FaceListener listner : listners){
             listner.onBlink();
         }
     }
 
-    //add the listners
-    public void addLeftTwikleLisner(FaceListner listner){
-        leftWtikleLisner.add(listner);
-    }
-
-
-    public void addRighTwikleLisner(FaceListner listner){
-        rightWtikleLisner.add(listner);
-    }
-
-    public void addBlinkListener(FaceListner listner){
-        blinkListener.add(listner);
-    }
 
     //for tests
     private void happand(){

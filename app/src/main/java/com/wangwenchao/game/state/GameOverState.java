@@ -46,6 +46,13 @@ public class GameOverState extends State {
 	}
 
 	@Override
+	public boolean onBlink(){
+		setCurrentState(new MenuState());
+		return true;
+	}
+
+
+	@Override
 	public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
 		if (e.getAction() == MotionEvent.ACTION_UP) {
 			setCurrentState(new MenuState());
