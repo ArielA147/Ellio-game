@@ -149,7 +149,7 @@ public class PlayState extends State{
 	private void renderPlayer(Painter g) {
 		if (player.isGrounded()) {
 			if (player.isDucked()) {
-				g.drawImage(Assets.duck, (int)player.getX(), (int)player.getY());
+				g.drawImage(Assets.duck, (int)player.getX(), (int)player.getY() + 30, (int) (1.35 *player.getWidth()),(int)(0.7 * player.getHeight()));
 			}else {
 				Assets.runAnim.render(g, (int)player.getX(), (int)player.getY(), player.getWidth(),player.getHeight());
 			}

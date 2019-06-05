@@ -18,8 +18,9 @@ import android.media.SoundPool;
 public class Assets {
 	
 	private static SoundPool soundPool;
-	public static Bitmap welcome, block, cloud1, cloud2, duck, grass, jump, run1, run2, run3, run4, run5, 
-							scoreDown, score, startDown, start, pause, play, musicOn, musicOff;
+	public static Bitmap welcome, block, cloud1, cloud2, duck, grass, jump, run1, run2, run3, run4,
+							scoreDown, score, startDown, start, pause, play, musicOn, musicOff,
+							arrow, gameOver;
 	public static Animation runAnim;
 	
 	private static MediaPlayer mediaPlayer;
@@ -38,7 +39,6 @@ public class Assets {
 		run2 = loadBitmap("run_anim2.png", true);
 		run3 = loadBitmap("run_anim3.png", true);
 		run4 = loadBitmap("run_anim4.png", true);
-		run5 = loadBitmap("run_anim5.png", true);
 		scoreDown = loadBitmap("score_button_down.png", true);
 		score = loadBitmap("score_button.png", true);
 		startDown = loadBitmap("start_button_down.png", true);
@@ -47,14 +47,15 @@ public class Assets {
 		play = loadBitmap("play.png", true);
 		musicOn = loadBitmap("musicOn.png", true);
 		musicOff = loadBitmap("musicOff.png", true);
+		gameOver = loadBitmap("Utgameover.png", true);
+		arrow = loadBitmap("arrow.png", true);
 		
 		Frame f1 = new Frame(run1, .1f);
 		Frame f2 = new Frame(run2, .1f);
 		Frame f3 = new Frame(run3, .1f);
 		Frame f4 = new Frame(run4, .1f);
-		Frame f5 = new Frame(run5, .1f);
 		
-		runAnim = new Animation(f1, f2, f3, f4, f5, f3, f2);
+		runAnim = new Animation(f1, f2, f3, f4);
 		
 	}
 	

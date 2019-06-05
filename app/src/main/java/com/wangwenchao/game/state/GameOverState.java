@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.MotionEvent;
 
+import com.wangwenchao.ellio.Assets;
 import com.wangwenchao.ellio.GameMainActivity;
 import com.wangwenchao.framework.util.Painter;
 
@@ -34,13 +35,14 @@ public class GameOverState extends State {
 
 	@Override
 	public void render(Painter g) {
-		g.setColor(Color.rgb(255, 145, 0));
-		g.fillRect(0, 0, GameMainActivity.GAME_WIDTH, GameMainActivity.GAME_HEIGHT);
-		g.setColor(Color.DKGRAY);
-		g.setFont(Typeface.DEFAULT_BOLD, 50);
-		g.drawString(gameOverMessage, 257, 175);
-		g.drawString(playScore, 385, 250);
-		g.drawString("Touch the screen", 220, 350);
+		//g.setColor(Color.rgb(255, 145, 0));
+		//g.fillRect(0, 0, GameMainActivity.GAME_WIDTH, GameMainActivity.GAME_HEIGHT);
+		//g.setColor(Color.DKGRAY);
+		//g.setFont(Typeface.DEFAULT_BOLD, 50);
+		//g.drawString(gameOverMessage, 257, 175);
+		//g.drawString(playScore, 385, 250);
+		//g.drawString("Touch the screen", 220, 350);
+		g.drawImage(Assets.gameOver, 0, 0);
 	}
 
 	@Override
