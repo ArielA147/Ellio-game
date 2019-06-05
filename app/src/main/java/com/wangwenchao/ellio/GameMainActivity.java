@@ -77,7 +77,7 @@ public class GameMainActivity extends Activity{
 		sGame = new GameView(this, GAME_WIDTH, GAME_HEIGHT);
 		setContentView(R.layout.main);
 		RelativeLayout rl = (RelativeLayout)findViewById(R.id.main_layout);
-		rl.addView(sGame);
+		rl.addView(sGame,0);
 //		setContentView(sGame);
 
 
