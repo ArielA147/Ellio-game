@@ -13,20 +13,20 @@ import com.wangwenchao.framework.util.Painter;
 import com.wangwenchao.framework.util.UIButton;
 
 public class MenuState extends State {
-    private UIButton playButton, scoreButton, muteButton, unmuteButton;
+    private UIButton playButton, scoreButton, muteButton, unmuteButton, multipplayerButton;
     private Date arrowDate;
     private int arrowIndex;
     private int arrowX, arrowY;
     boolean doubleBackToExitPressedOnce;
     private final int arrowX1 = 227;
     private final int arrowX2 = 227;
-    private final int arrowY1 = 240;
-    private final int arrowY2 = 300;
+    private final int arrowY1 = 227;
+    private final int arrowY2 = 305;
 
     @Override
     public void init() {
         playButton = new UIButton(316, 227, 484, 286, Assets.start, Assets.startDown);
-        scoreButton = new UIButton(316, 300, 484, 359, Assets.score, Assets.scoreDown);
+        multipplayerButton = new UIButton(316, 300, 484, 365, Assets.multiplayer, Assets.multiplayerDown);
         muteButton = new UIButton(0, 0, 50, 48, Assets.musicOn,
                 Assets.musicOff);
         unmuteButton = new UIButton(0, 0, 50, 48, Assets.musicOff,
@@ -58,7 +58,7 @@ public class MenuState extends State {
         g.drawImage(Assets.arrow, arrowX, arrowY);
         arrowDate = Calendar.getInstance().getTime();
         playButton.render(g);
-        scoreButton.render(g);
+        multipplayerButton.render(g);
         if (GameMainActivity.isMuted()) {
             unmuteButton.render(g);
         } else {
@@ -71,7 +71,7 @@ public class MenuState extends State {
     public boolean onTouch(MotionEvent e, int scaledX, int scaledY) {
         if (e.getAction() == MotionEvent.ACTION_DOWN) {
             playButton.onTouchDown(scaledX, scaledY);
-            scoreButton.onTouchDown(scaledX, scaledY);
+            multipplayerButton.onTouchDown(scaledX, scaledY);
             if (GameMainActivity.isMuted()) {
                 unmuteButton.onTouchDown(scaledX, scaledY);
             } else {
@@ -84,10 +84,8 @@ public class MenuState extends State {
                 playButton.cancel();
                 Log.d("MenuState", "Play Button Pressed!");
                 setCurrentState(new PlayState());
-            } else if (scoreButton.isPressed(scaledX, scaledY)) {
-                scoreButton.cancel();
-                Log.d("MenuState", "Score Button Pressed!");
-                setCurrentState(new ScoreState());
+            } else if (multipplayerButton.isPressed(scaledX, scaledY)){
+                // HERE WILL BE LOGIC OF MULTIPLAYER MODE.
             } else if (muteButton.isPressed(scaledX, scaledY)) {
                 muteButton.cancel();
                 Assets.onMute();
@@ -98,7 +96,7 @@ public class MenuState extends State {
                 GameMainActivity.setMuted(false);
             } else {
                 playButton.cancel();
-                scoreButton.cancel();
+                multipplayerButton.cancel();
                 muteButton.cancel();
                 unmuteButton.cancel();
             }
