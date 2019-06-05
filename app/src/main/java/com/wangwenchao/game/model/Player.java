@@ -57,7 +57,7 @@ public class Player {
 			duckDuration = .6f;
 			y -= 12;
 			velY = JUMP_VELOCITY;
-			updateRects();;
+			updateRects();
 		}
 	}
 	

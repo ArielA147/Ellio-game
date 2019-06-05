@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 93
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 19,
+                        "startOffset": 17,
                         "endColumn": 42,
-                        "endOffset": 57
+                        "endOffset": 55
                     }
                 }
             },
@@ -31,14 +31,14 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 192,
+                        "startOffset": 186,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 484
+                        "endOffset": 472
                     }
                 }
             },
@@ -52,21 +52,21 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\ELLIO\\EllioAndroid\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\University\\Ellio\\Ellio-game\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 525,
+                        "startOffset": 510,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 682
+                        "endOffset": 665
                     }
                 }
             }
         ]
     },
     {
-        "outputFile": "H:\\Android_Development\\EllioAndroid1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -77,13 +77,13 @@
                     "endOffset": 93
                 },
                 "from": {
-                    "file": "H:\\Android_Development\\EllioAndroid1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 19,
+                        "startOffset": 17,
                         "endColumn": 42,
-                        "endOffset": 57
+                        "endOffset": 55
                     }
                 }
             },
@@ -97,14 +97,14 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "H:\\Android_Development\\EllioAndroid1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 186,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
+                        "endOffset": 472
                     }
                 }
             },
@@ -118,14 +118,14 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "H:\\Android_Development\\EllioAndroid1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Joker\\AndroidStudioProjects\\Ellio\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 510,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 679
+                        "endOffset": 665
                     }
                 }
             }
