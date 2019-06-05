@@ -322,8 +322,10 @@ public class GameMainActivity extends Activity{
 			// speed up detection, in that it can quit after finding a single face and can assume
 			// that the nextIrisPosition face position is usually relatively close to the last seen
 			// face position.
-			Tracker<Face> tracker = new GooglyFaceTracker(mGraphicOverlay);
-			processor = new LargestFaceFocusingProcessor.Builder(detector, tracker).build();
+			GooglyFaceTracker faceTracker = new GooglyFaceTracker(mGraphicOverlay);
+			sGame.setFaceTracker(faceTracker);
+//			Tracker<Face> tracker = faceTracker;
+			processor = new LargestFaceFocusingProcessor.Builder(detector, faceTracker).build();
 		} else {
 			// For rear facing mode, a factory is used to create per-face tracker instances.  A
 			// tracker is created for each face and is maintained as long as the same face is

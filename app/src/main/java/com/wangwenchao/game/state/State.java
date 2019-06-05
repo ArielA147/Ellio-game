@@ -2,10 +2,11 @@ package com.wangwenchao.game.state;
 
 import android.view.MotionEvent;
 
+import com.wangwenchao.accessibility.FaceListner;
 import com.wangwenchao.ellio.GameMainActivity;
 import com.wangwenchao.framework.util.Painter;
 
-public abstract class State{
+public abstract class State implements FaceListner {
 
 	
 	public void setCurrentState(State newState) {
@@ -26,4 +27,6 @@ public abstract class State{
 	
 	public void onBackPressed(){}
 
+	@Override
+	public void onBlink() { }
 }

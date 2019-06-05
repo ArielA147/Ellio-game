@@ -9,6 +9,7 @@ import android.graphics.Typeface;
 import android.util.Log;
 import android.view.MotionEvent;
 
+import com.wangwenchao.accessibility.FaceListner;
 import com.wangwenchao.ellio.Assets;
 import com.wangwenchao.ellio.GameMainActivity;
 import com.wangwenchao.framework.util.Painter;
@@ -18,13 +19,14 @@ import com.wangwenchao.game.model.Cloud;
 import com.wangwenchao.game.model.Player;
 
 
-public class PlayState extends State {
+public class PlayState extends State implements FaceListner {
 
     //	private Player player1;
 //	private Player player2;
     private static final int playersNum = 3;
     private static final int players_cup = 20;
     private List<Player> players;
+
 
     private int x = 140;
 
@@ -239,5 +241,14 @@ public class PlayState extends State {
         players.add(newPlayer);
         return newPlayer;
     }
+
+
+    @Override
+    public void onBlink() {
+        for (Player player : players){
+            player.jump();
+        }
+    }
+
 
 }

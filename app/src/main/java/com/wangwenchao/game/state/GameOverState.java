@@ -59,4 +59,8 @@ public class GameOverState extends State {
 	    setCurrentState(new MenuState());
 	}
 
+	@Override
+	public void onBlink() {
+
+	}
 }

@@ -1,5 +1,6 @@
 package com.wangwenchao.framework.util;
 
+import com.wangwenchao.accessibility.GooglyFaceTracker;
 import com.wangwenchao.ellio.GameMainActivity;
 import com.wangwenchao.game.state.State;
 
@@ -11,8 +12,9 @@ public class InputHandler implements OnTouchListener{
 
 	private State currentState;
 	
-	public void setCurrentState(State currentState) {
+	public void setCurrentState(State currentState, GooglyFaceTracker tracker) {
 		this.currentState = currentState;
+		tracker.addBlinkListener(currentState);
 	}
 	
 	@Override

@@ -8,18 +8,21 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 
+import com.wangwenchao.accessibility.FaceListner;
+import com.wangwenchao.accessibility.GooglyFaceTracker;
 import com.wangwenchao.framework.util.InputHandler;
 import com.wangwenchao.framework.util.Painter;
 import com.wangwenchao.game.state.LoadState;
 import com.wangwenchao.game.state.State;
 
-public class GameView extends SurfaceView implements Runnable{
+public class GameView extends SurfaceView implements Runnable {
 
 	private Bitmap gameImage;
 	private Rect gameImageSrc;
 	private Rect gameImageDst;
 	private Canvas gameCanvas;
 	private Painter graphics;
+	private GooglyFaceTracker faceTracker;
 
 	private Thread gameThread;
 	private volatile boolean running = false;
@@ -60,11 +63,15 @@ public class GameView extends SurfaceView implements Runnable{
 		});
 	}
 
+	public void setFaceTracker(GooglyFaceTracker ft) {
+		this.faceTracker = ft;
+	}
+
 	public void setCurrentState(State newState) {
 		System.gc();
 		newState.init();
 		currentState = newState;
-		inputHandler.setCurrentState(currentState);
+		inputHandler.setCurrentState(currentState,faceTracker);
 	}
 
 	private void initInput() {
@@ -142,6 +149,5 @@ public class GameView extends SurfaceView implements Runnable{
 	public void onBackPressed() {
 	    currentState.onBackPressed();
 	}
-
 
 }
