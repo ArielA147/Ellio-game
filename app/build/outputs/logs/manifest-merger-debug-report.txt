@@ -1,145 +1,145 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-MERGED from [com.android.support:design:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/98484e0d5bc94f703354b6a0b1441849/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/7f29a8a70c4a926d0f8c0e1ca5ad0b91/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/ee91b9d307380f3d8d59b5fd79c1b637/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/279e233f493f561e9d69fbb12a93f312/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:16:1-26:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/420a0536d61c6a2684bf9b451182e991/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/08d372d77f6f180b23ce9e30bc8d3323/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/8f7b9b5466d3b9137bf0413d87151106/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:1-36:12
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f00fa5d54de56e51ea8c1e8493fe3cb1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\91a4ff748050b53bc7dc6dffcd884b3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce853707d12b6e208e7814db5cb3c7e5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d7633a2af4e17f51187a03a136e13fd8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e038863c81ee13dc30f7a18b8082a4ee\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9ab538ef87a4192548dad5b79d740e49\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d675dea7567aa36c0e035700920866a4\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:1-36:12
 	package
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:2:5-36
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:6:5-60
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:6:5-60
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:6:19-57
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:6:19-57
 uses-permission#android.permission.CAMERA
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:8:5-65
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:8:22-62
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:10:5-34:19
-MERGED from [com.android.support:design:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/98484e0d5bc94f703354b6a0b1441849/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/98484e0d5bc94f703354b6a0b1441849/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/ee91b9d307380f3d8d59b5fd79c1b637/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/ee91b9d307380f3d8d59b5fd79c1b637/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/279e233f493f561e9d69fbb12a93f312/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/279e233f493f561e9d69fbb12a93f312/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/420a0536d61c6a2684bf9b451182e991/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/420a0536d61c6a2684bf9b451182e991/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/08d372d77f6f180b23ce9e30bc8d3323/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/08d372d77f6f180b23ce9e30bc8d3323/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/8f7b9b5466d3b9137bf0413d87151106/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/8f7b9b5466d3b9137bf0413d87151106/AndroidManifest.xml:22:5-20
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:10:5-34:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f00fa5d54de56e51ea8c1e8493fe3cb1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f00fa5d54de56e51ea8c1e8493fe3cb1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce853707d12b6e208e7814db5cb3c7e5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce853707d12b6e208e7814db5cb3c7e5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d7633a2af4e17f51187a03a136e13fd8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d7633a2af4e17f51187a03a136e13fd8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e038863c81ee13dc30f7a18b8082a4ee\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e038863c81ee13dc30f7a18b8082a4ee\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9ab538ef87a4192548dad5b79d740e49\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9ab538ef87a4192548dad5b79d740e49\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d675dea7567aa36c0e035700920866a4\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d675dea7567aa36c0e035700920866a4\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:12:9-45
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:14:9-40
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:19:9-21:36
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:19:9-21:36
 	android:value
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:21:13-33
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:21:13-33
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:20:13-70
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:20:13-70
 activity#com.wangwenchao.ellio.GameMainActivity
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:23:9-32:14
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:23:9-32:14
 	android:screenOrientation
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:24:13-56
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:24:13-56
 	android:label
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:26:13-45
 	android:theme
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:27:4-62
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:27:4-62
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:25:13-66
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:25:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:28:13-31:29
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml:30:27-74
 uses-sdk
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/98484e0d5bc94f703354b6a0b1441849/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/98484e0d5bc94f703354b6a0b1441849/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/7f29a8a70c4a926d0f8c0e1ca5ad0b91/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/7f29a8a70c4a926d0f8c0e1ca5ad0b91/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:21:5-23:78
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/ee91b9d307380f3d8d59b5fd79c1b637/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/ee91b9d307380f3d8d59b5fd79c1b637/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/279e233f493f561e9d69fbb12a93f312/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/279e233f493f561e9d69fbb12a93f312/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/420a0536d61c6a2684bf9b451182e991/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/420a0536d61c6a2684bf9b451182e991/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/08d372d77f6f180b23ce9e30bc8d3323/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/08d372d77f6f180b23ce9e30bc8d3323/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/8f7b9b5466d3b9137bf0413d87151106/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/8f7b9b5466d3b9137bf0413d87151106/AndroidManifest.xml:20:5-43
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f00fa5d54de56e51ea8c1e8493fe3cb1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f00fa5d54de56e51ea8c1e8493fe3cb1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\91a4ff748050b53bc7dc6dffcd884b3a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\91a4ff748050b53bc7dc6dffcd884b3a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce853707d12b6e208e7814db5cb3c7e5\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce853707d12b6e208e7814db5cb3c7e5\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d7633a2af4e17f51187a03a136e13fd8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d7633a2af4e17f51187a03a136e13fd8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e038863c81ee13dc30f7a18b8082a4ee\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e038863c81ee13dc30f7a18b8082a4ee\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9ab538ef87a4192548dad5b79d740e49\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9ab538ef87a4192548dad5b79d740e49\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d675dea7567aa36c0e035700920866a4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d675dea7567aa36c0e035700920866a4\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/474c29bf8dc2224f838991152825affb/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3de11f6fb88ba789444cbb92641749d7\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		ADDED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/e1bb4c39ff679265895f41b1a35bc1e4/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a5e74d07601788aade733559f4632b70\AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/orsanawwad/.gradle/caches/transforms-2/files-2.1/6046ae4fd4eda2a065bbd64d2fbfbc3b/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\71927e35173b80e01fdb4927f2deac66\AndroidManifest.xml:22:13-58
