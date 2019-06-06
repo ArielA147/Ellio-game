@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
 
     defaultConfig {
-        applicationId "com.wangwenchao.ellio"
-        minSdkVersion 11
-        targetSdkVersion 21
+        applicationId "com.hackbiu.crocoboy"
+        minSdkVersion 14
+        targetSdkVersion 26
     }
 
     buildTypes {
@@ -19,5 +18,8 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0'
+    implementation 'com.android.support:support-v4:23.4.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:design:23.4.0'
+    implementation 'com.google.android.gms:play-services-vision:9.4.0+'
 }
