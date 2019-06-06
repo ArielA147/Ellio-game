@@ -16,7 +16,7 @@ public class MenuState extends State {
 	private static final String TAG = "touch on pressed down";
     private UIButton playButton, scoreButton, muteButton, unmuteButton, multipplayerButton;
     private Date arrowDate;
-    private int arrowIndex;
+    private boolean arrowIndex;
     private int arrowX, arrowY;
     boolean doubleBackToExitPressedOnce;
     private final int arrowX1 = 227;
@@ -33,7 +33,7 @@ public class MenuState extends State {
         unmuteButton = new UIButton(0, 0, 50, 48, Assets.musicOff,
                 Assets.musicOn);
         arrowDate = Calendar.getInstance().getTime();
-        arrowIndex = 0;
+        arrowIndex = false;
         arrowX = arrowX1;
         arrowY = arrowY1;
     }
@@ -55,6 +55,7 @@ public class MenuState extends State {
             else
                 arrowY = arrowY1;
             arrowDate = Calendar.getInstance().getTime();
+            arrowIndex = !arrowIndex;
         }
         g.drawImage(Assets.arrow, arrowX, arrowY);
         arrowDate = Calendar.getInstance().getTime();
@@ -69,10 +70,18 @@ public class MenuState extends State {
     }
 
     @Override
-    public boolean onBlink(){
+    public boolean onBlink() {
         // if blink == true , do the "key pressed of the play game"
         // if the user blinked in the menu - the state will be starting the game
-        setCurrentState(new PlayState());
+//        setCurrentState(new PlayState());
+        // if playButton was "pressed" by the user
+        if (!arrowIndex) {
+            playButton.cancel();
+            Log.d("MenuState", "Play Button Pressed!");
+            setCurrentState(new PlayState());
+        } else {
+            // HERE WILL BE LOGIC OF MULTIPLAYER MODE.
+        }
         return true;
     }
 

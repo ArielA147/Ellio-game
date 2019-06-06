@@ -73,7 +73,7 @@ public class GooglyFaceTracker extends Tracker<Face> {
         rightWtikleLisner = new ArrayList<>();
         leftWtikleLisner = new ArrayList<>();
         blinkListener = new ArrayList<>();
-        addBlinkListener(new TestListener());
+//        addBlinkListener(new TestListener());
     }
 
     /**
