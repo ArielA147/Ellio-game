@@ -81,6 +81,7 @@ public class MenuState extends State {
             setCurrentState(new PlayState());
         } else {
             // HERE WILL BE LOGIC OF MULTIPLAYER MODE.
+            setCurrentState(new AIState());
         }
         return true;
     }
