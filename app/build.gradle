@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
 
     defaultConfig {
-        applicationId "com.wangwenchao.ellio"
+        applicationId "com.hackbiu.crocoboy"
         minSdkVersion 14
         targetSdkVersion 26
     }

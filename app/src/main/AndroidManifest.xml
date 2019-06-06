@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wangwenchao.ellio"
-    android:versionCode="1"
-    android:versionName="1" >
+    package="com.hackbiu.crocoboy"
+    android:versionCode="3"
+    android:versionName="3" >
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -22,7 +22,7 @@
 
         <activity
             android:screenOrientation="sensorLandscape"
-            android:name="com.wangwenchao.ellio.GameMainActivity"
+            android:name="com.hackbiu.crocoboy.GameMainActivity"
             android:label="@string/app_name"
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>

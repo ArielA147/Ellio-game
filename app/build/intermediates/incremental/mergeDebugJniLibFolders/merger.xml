@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\User\Desktop\ELLIO\EllioAndroid\app\src\debug\jniLibs"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="C:\Users\Anton\Documents\Haclaton\Ellio-game\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Anton\Documents\Haclaton\Ellio-game\app\src\debug\jniLibs"/></dataSet></merger>
->>>>>>> game-dev
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/orsanawwad/Documents/BIUHack/Ellio-game/app/src/debug/jniLibs"/></dataSet></merger>
